@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
-import { authClient } from "@/lib/auth-client"; 
+import { authClient } from "@/lib/auth-client";
 import { useRouter } from "next/navigation";
 import { ModeToggle } from "./ModeTogggle";
 
@@ -27,9 +27,6 @@ export default function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/" className="text-xl font-bold tracking-tight">
             CRUD
-          </Link>
-          <Link href="/" className="text-sm font-medium hover:text-primary">
-            Feed
           </Link>
         </div>
 
